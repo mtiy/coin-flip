@@ -1,0 +1,26 @@
+#coinFlipGame{
+    padding: 10px;
+}
+
+#coin{
+    font-size: 30px;
+    min-width: 6.5em;
+    display: inline-block;
+    margin: 1em;
+    text-align: center;
+    font-weight: 900;
+}
+
+div.flipping{
+    animation-duration: 2s;
+    animation-name: flip-coin;
+}
+
+@keyframes flip-coin {
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: 720deg;
+    }
+}
